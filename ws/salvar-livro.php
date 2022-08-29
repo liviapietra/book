@@ -10,7 +10,7 @@ VALUES('$nome_livro', 100, '???');";
 
 Conexao:: exec($sql);
 
-header("Location: ../");
+header("Location: ../index.php");
 
 
 
